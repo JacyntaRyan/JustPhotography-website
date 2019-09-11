@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>Just Photography</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/main.css">
+
+    </head>
+
+    <body>
+        <h1 id="heading">Just Photography</h1>
+        <header>
+
+        </header>
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="Index.jsp">Home</a></li>
+                <li><a href="Classes">Classes</a></li>
+                <li><a href="Events">Events</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Competitions">Competitions</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="login.html">Log In</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2 id="reg_header">Registration</h2>
+            <form action = "register" method="POST" id="form">
+                <fieldset>
+
+
+                    <Div id ="left_form" style="float:left">
+                        <label>First name:</label><br>
+                        <input required type="text" name="first_name" ><br>
+                        <label>Username:</label><br>
+                        <input required type="text" name="user_name"  ><br>
+                        <label >Mobile:</label><br>
+                        <select id="prefix">
+                            <option value="083">083</option>
+                            <option value="085">085</option>
+                            <option value="086">086</option>
+                            <option value="087">087</option>
+                            <option value="089">089</option>
+                        </select>
+                        <input required type="text" id ="phone" name="phone"><br>
+                        <label>Email:</label><br>
+                        <input required type="email" name="email"><br><br>
+                        <input type="submit" value="Submit" name="submit">
+                    </Div>
+                    <Div id ="right_form" style="float:right">
+                        <label>Last name:</label><br>
+                        <input required type="text" name ="last_name" ><br>
+                        <label>Password:</label><br>
+                        <input required type="password" name="password"><br>
+                        <label>Confirm Password:</label><br>
+                        <input required type="password" name="confirm_password"><br>
+                        <label>Address</label><br>
+                        <textarea cols="29" rows="3" name="address"></textarea><br><br>
+                        <input type="reset" value="Reset" name="reset">
+                    </Div>
+
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>

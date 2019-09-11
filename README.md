@@ -1,5 +1,6 @@
 # JustPhotography-website
 Java Web Application - Photography website (year 2 Project)
+This was a group project consisting of one other student and myself.
 This website is based on a photography club called ‘Just Photography’ which will inform the user about events, classes and competitions
 that the club is running. It will also inform the public about the general information about the club.
 The website will also allow an administrator to log on and make changes to the website such as adding events, updating competitions ect.
